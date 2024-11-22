@@ -1,21 +1,56 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build outputs
+dist/
+build/
+.parcel-cache/
+.cache/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
 
 # OS generated files
-.DS_Store # macOS folder settings
-Thumbs.db # Windows image file cache
-Desktop.ini # Windows desktop icon settings
+.DS_Store
+Thumbs.db
+Desktop.ini
 
 # Editor directories and files
-.vscode/   # Visual Studio Code settings
-.idea/   # IntelliJ IDEA settings
-*.swp   # Vim swap files
-*.swo   # Vim swap files
-*.swn   # Vim swap files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
 
 # Temporary or cache files
-*.tmp   # Temporary files
-*.temp  # Temporary files
-*.cache   # Cache files
-*.bak   # Backup files
+*.tmp
+*.temp
+*.cache
+*.bak
 
-# Others
-*.log   # Log files
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+*.log
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Misc
+*.pem
+.vercel
