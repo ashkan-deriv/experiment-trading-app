@@ -36,3 +36,7 @@ dist/
 build/
 *.min.js
 *.min.css
+
+# Parcel
+.parcel-cache/
+.cache/
