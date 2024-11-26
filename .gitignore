@@ -1,4 +1,3 @@
-
 # OS generated files
 .DS_Store # macOS folder settings
 Thumbs.db # Windows image file cache
@@ -19,3 +18,21 @@ Desktop.ini # Windows desktop icon settings
 
 # Others
 *.log   # Log files
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+*.min.js
+*.min.css

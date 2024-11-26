@@ -1,5 +1,5 @@
 .dropdown-labelled-outline {
-  height: 56px;
+  /* height: 56px; */
   flex: 1;
   box-shadow: 0 16px 24px 4px rgba(0, 0, 0, 0.04),
     0 16px 24px 4px rgba(0, 0, 0, 0.02);
@@ -201,7 +201,7 @@
   color: var(--core-color-opacity-black-600);
 }
 .field-duration {
-  height: 78px;
+  /* height: 78px; */
   flex: 1;
   box-shadow: 0 16px 24px 4px rgba(0, 0, 0, 0.04),
     0 16px 24px 4px rgba(0, 0, 0, 0.02);
@@ -309,7 +309,7 @@
   justify-content: flex-start;
 }
 .text-field {
-  height: 78px;
+  /* height: 78px; */
   flex: 1;
   flex-direction: column;
   gap: var(--gap-9xs);
@@ -441,7 +441,7 @@
   color: var(--core-color-opacity-black-600);
 }
 .stake-dropdown {
-  height: 78px;
+  /* height: 78px; */
   flex: 1;
   box-shadow: 0 16px 24px 4px rgba(0, 0, 0, 0.04),
     0 16px 24px 4px rgba(0, 0, 0, 0.02);
@@ -883,4 +883,7 @@
   .purchase-card {
     flex-wrap: wrap;
   }
+}
+select {
+  min-height: 35px;
 }
