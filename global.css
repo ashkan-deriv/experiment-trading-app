@@ -18,35 +18,30 @@ body {
   --core-color-solid-slate-50: #fff;
   --color-darkslategray: rgba(65, 70, 82, 0.72);
   --core-color-solid-blue-700: #2c9aff;
-  --color-gray-100: rgba(255, 255, 255, 0.72);
-  --color-gray-200: rgba(0, 0, 0, 0.04);
+  --color-gray-300: rgba(0, 0, 0, 0);
   --core-color-opacity-black-100: rgba(0, 0, 0, 0.08);
   --core-color-opacity-black-400: rgba(0, 0, 0, 0.48);
   --core-color-opacity-black-600: rgba(0, 0, 0, 0.72);
-  --core-color-solid-slate-1400: #000;
-  --color-blueviolet: #9747ff;
   --color-firebrick: #c40000;
+  --core-color-solid-slate-1400: #000;
 
   /* Gaps */
   --gap-base: 16px;
   --gap-9xs: 4px;
   --gap-5xs: 8px;
   --gap-11xs: 2px;
-  --gap-325xl: 344px;
 
   /* Paddings */
   --padding-base: 16px;
   --padding-6xs: 7px;
   --padding-xl: 20px;
-  --padding-61xl: 80px;
-  --padding-65xl: 84px;
-  --padding-5xs: 8px;
+  --padding-mini: 15px;
+  --padding-smi: 13px;
+  --padding-19xl: 38px;
+  --padding-6xl: 25px;
 
   /* Border radiuses */
   --br-base: 16px;
   --br-lg: 18px;
   --br-5xs: 8px;
-  --br-77xl: 96px;
-  --br-9xs: 4px;
-  --br-7xs: 6px;
 }
